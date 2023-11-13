@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norris vitser og katter</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+
+        <h1>Tell me something funny🤣</h1>
+        <p id="funny-text" class="style-funny-text"></p>
+        <p id="loading-new-joke">Loading...</p>
+
+        <button id="button-get-joke" onclick="fetchJoke()" class="style-button">New joke</button>
+
+    </main>
+
+    <div class="main-two">
+        <h1>So you like cats😼</h1>
+        <div id="dog-photo" class="style-dog-photo"></div><button id="button-see-dog" onclick="fetchPhoto()" class="style-button">New photo</button>
+    </div>
+
+    <!-- Skulle lage en api for hund ble endret til katt fordi den fungerte -->
+    
+</body>
+</html>
